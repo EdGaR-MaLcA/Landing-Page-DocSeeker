@@ -100,9 +100,10 @@ iframe {
 }
 
 @media only screen and (max-width: 600px) {
+
+    /* Health Professionals Section */
     .mediaContainer {
         border: 3px solid darkred;
-        display: flex;
         flex-flow: column;
         align-items: center;
         margin: 2% 0 2% 0;
@@ -121,7 +122,14 @@ iframe {
         width: 45%;
     }
 
-    .imgContainer {
+    /* About Us Section */
+    #aboutUs .mainContainer {
+        border: 3px solid lightseagreen;
+        flex-flow: column;
+        align-items: center;
+    }
 
+    .videoSection {
+        width: 80%;
     }
 }
