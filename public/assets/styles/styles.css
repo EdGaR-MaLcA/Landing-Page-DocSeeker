@@ -1,0 +1,29 @@
+
+/* Health Professionals Section */
+.titleBackground {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#healthProfessionals .mainContainer {
+    display: flex;
+    flex-flow: column;
+}
+
+.mediaContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.feature {
+    width: 40%;
+}
+
+img {
+    width: 100%;
+}
