@@ -1,23 +1,15 @@
 body {
     margin: 0;
 }
-#healthProfessionals {
-    border: 3px solid black;
-}
-
-#aboutUs {
-    border: 3px solid coral;
-}
 
 /* Health Professionals Section */
 .titleBackground {
-    border: 3px solid darkgreen;
     text-align: center;
     text-transform: uppercase;
+    padding: 1% 0;
 }
 
 #healthProfessionals .mainContainer {
-    border: 3px solid darkgoldenrod;
     display: flex;
     flex-flow: column;
 }
@@ -31,16 +23,14 @@ body {
 }
 
 .mediaContainer {
-    border: 3px solid darkred;
     display: flex;
     justify-content: space-evenly;
 }
 
 .btnContainer {
-    border: 3px solid darkblue;
     display: flex;
     justify-content: center;
-    padding: 3% 0 3% 0;
+    padding: 0 0 2% 0;
 }
 
 #connectBtn {
@@ -57,7 +47,6 @@ body {
 }
 
 .feature {
-    border: 3px solid darkblue;
     width: 40%;
     display: flex;
     flex-flow: column;
@@ -66,13 +55,9 @@ body {
 }
 
 .imgContainer {
-    border: 3px solid darkred;
-    width: 95%;
+    width: 85%;
+    height: 70%;
     margin: 0 auto;
-}
-
-.feature h3 {
-    border: 3px solid sienna;
 }
 
 img {
@@ -83,13 +68,11 @@ img {
 
 /* About Us Section */
 #aboutUs .mainContainer {
-    border: 3px solid lightseagreen;
     display: flex;
     justify-content: space-evenly;
 }
 
 .videoSection {
-    border: 3px solid darkred;
     width: 40%;
     text-align: center;
     padding: 3% 0 3% 0;
@@ -103,7 +86,6 @@ iframe {
 
     /* Health Professionals Section */
     .mediaContainer {
-        border: 3px solid darkred;
         flex-flow: column;
         align-items: center;
         margin: 2% 0 2% 0;
@@ -124,7 +106,6 @@ iframe {
 
     /* About Us Section */
     #aboutUs .mainContainer {
-        border: 3px solid lightseagreen;
         flex-flow: column;
         align-items: center;
     }
