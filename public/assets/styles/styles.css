@@ -1,29 +1,54 @@
+#healthProfessionals {
+    border: 3px solid black;
+}
+
+#aboutUs {
+    border: 3px solid coral;
+}
 
 /* Health Professionals Section */
 .titleBackground {
+    border: 3px solid darkgreen;
     text-align: center;
     text-transform: uppercase;
 }
 
 #healthProfessionals .mainContainer {
+    border: 3px solid darkgoldenrod;
     display: flex;
     flex-flow: column;
 }
 
 .mediaContainer {
+    border: 3px solid darkred;
     display: flex;
     justify-content: center;
 }
 
 .btnContainer {
+    border: 3px solid darkblue;
     display: flex;
     justify-content: center;
 }
 
 .feature {
+    border: 3px solid seagreen;
     width: 40%;
 }
 
-img {
+img, iframe {
     width: 100%;
+}
+
+/* About Us Section */
+#aboutUs .mainContainer {
+    border: 3px solid lightseagreen;
+    display: flex;
+    justify-content: center;
+}
+
+.videoSection {
+    border: 3px solid darkred;
+    width: 40%;
+    text-align: center;
 }
