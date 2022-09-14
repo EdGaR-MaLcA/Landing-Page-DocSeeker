@@ -22,33 +22,55 @@
 .mediaContainer {
     border: 3px solid darkred;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .btnContainer {
     border: 3px solid darkblue;
     display: flex;
     justify-content: center;
+    padding: 3% 0 3% 0;
 }
 
 .feature {
-    border: 3px solid seagreen;
+    border: 3px solid darkblue;
     width: 40%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
 }
 
-img, iframe {
+.imgContainer {
+    border: 3px solid darkred;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.feature h3 {
+    border: 3px solid sienna;
+}
+
+img {
     width: 100%;
+    height: 100%;
+    border-radius: 20px;
 }
 
 /* About Us Section */
 #aboutUs .mainContainer {
     border: 3px solid lightseagreen;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .videoSection {
     border: 3px solid darkred;
     width: 40%;
     text-align: center;
+    padding: 3% 0 3% 0;
+}
+
+iframe {
+    width: 100%;
 }
