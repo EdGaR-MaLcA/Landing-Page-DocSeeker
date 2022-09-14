@@ -19,6 +19,14 @@
     flex-flow: column;
 }
 
+.mainContainer {
+    background-color: #0093AB;
+}
+
+.mainContainer h3 {
+    color: #fff;
+}
+
 .mediaContainer {
     border: 3px solid darkred;
     display: flex;
@@ -30,6 +38,19 @@
     display: flex;
     justify-content: center;
     padding: 3% 0 3% 0;
+}
+
+#connectBtn {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #FD5D5D;
+    padding: 1.5%;
+    border: 0;
+    border-radius: 10px;
+}
+
+#connectBtn:hover {
+    font-weight: bold;
 }
 
 .feature {
