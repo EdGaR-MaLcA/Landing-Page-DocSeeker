@@ -2,6 +2,7 @@
     --primary-color: #0093AB;
     --secundary-color: #FD5D5D;
 }
+/* Global styles*/
 *,
 *::before,
 *::after {
@@ -20,6 +21,7 @@ img {
     border-radius: 10px;
 }
 
+/* Navbar styles */
 .navbar{
     position: fixed;
     top: 0;
@@ -57,6 +59,8 @@ img {
 li{
     list-style-type: none;
 }
+
+/*Navbar styles responsive*/
 .menu{
     display: none;
     width: 50px;
@@ -64,4 +68,50 @@ li{
 }
 .menuLinks{
     display: none;
+}
+
+
+@media only screen and (max-width: 800px){
+    .navbarBtn{
+        position: fixed;
+        background-color: var(--primary-color);
+        top: 0;
+        width: 100%;
+        padding: 1rem;
+
+    }
+    .menu{
+        display: block;
+        position: fixed;
+        width: 50px;
+        top: 20px;
+        right: 70px;
+        z-index: 10;
+    }
+    .navbarLinks{
+        display: none;
+    }
+
+    .menuLinks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: var(--secundary-color);
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100vh;
+        border-radius: 10px;
+        transform: translateX(200%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .navbarElementItem a {
+        padding: 3rem 5rem;
+    }
+}
+.hamburgerActive{
+    transform: translateX(0%);
 }
