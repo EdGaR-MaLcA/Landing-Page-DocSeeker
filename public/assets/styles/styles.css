@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 #healthProfessionals {
     border: 3px solid black;
 }
@@ -94,4 +97,31 @@ img {
 
 iframe {
     width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .mediaContainer {
+        border: 3px solid darkred;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin: 2% 0 2% 0;
+        font-size: 80%;
+    }
+
+    .feature {
+        width: 80%;
+    }
+
+    img {
+        border-radius: 5%;
+    }
+
+    #connectBtn {
+        width: 45%;
+    }
+
+    .imgContainer {
+
+    }
 }
