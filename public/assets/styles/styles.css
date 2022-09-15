@@ -233,6 +233,9 @@ li{
 .card:hover img{
     transform: scale(1.25);
 }
+.title{
+    text-align: center;
+}
 .card:after{
     width: 100%;
     height: 150px;
