@@ -48,6 +48,7 @@ h1{
     height: 10vw;
     background-color: #0093AB;
 
+
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -130,6 +131,7 @@ button{
     justify-content: space-evenly;
     background-color: var(--primary-color);
     width: 100%;
+    z-index: 100;
 }
 .navbarLogo{
     width: 200px;
@@ -171,11 +173,12 @@ li{
 }
 
 
-@media only screen and (max-width: 800px){
-    .navbar{
+@media only screen and (max-width: 800px) {
+    .navbar {
         left: unset;
     }
-    .navbarBtn{
+
+    .navbarBtn {
         position: fixed;
         background-color: var(--primary-color);
         top: 0;
@@ -183,7 +186,8 @@ li{
         padding: 1rem;
 
     }
-    .menu{
+
+    .menu {
         display: block;
         position: fixed;
         width: 50px;
@@ -191,11 +195,12 @@ li{
         right: 70px;
         z-index: 10;
     }
-    .navbarLinks{
+
+    .navbarLinks {
         display: none;
     }
 
-    .menuLinks{
+    .menuLinks {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -210,17 +215,21 @@ li{
         transform: translateX(200%);
         transition: transform 0.5s ease-in;
     }
-#services {
-    align-content: center;
-    background-color: rgba(0, 147, 171, 0.80);}
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: poppins;
+
+
+    /* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: poppins;
+        }*/
 }
 
+#services {
+    align-content: center;
+    background-color: rgba(0, 147, 171, 0.80);
+}
 .filters {
     display: flex;
     justify-content: space-around;
@@ -326,11 +335,11 @@ li{
     padding: 50px;
 }
 
-    .navbarElementItem a {
+.navbarElementItem a {
         padding: 3rem 5rem;
-    }
-
 }
+
+
 .hamburgerActive{
     transform: translateX(0%);
 }
