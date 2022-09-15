@@ -87,6 +87,18 @@ div.textAndButton{
     /*border: 1px solid blue;*/
 }
 
+div.textAndButton h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /*border: 1px solid blue;*/
+}
+
+div.textAndButton p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /*border: 1px solid blue;*/
+}
+
 p{
     font-size: 25px;
 }
@@ -173,7 +185,7 @@ li{
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1170px) {
     .navbar {
         left: unset;
     }
@@ -328,7 +340,7 @@ li{
     font-family: poppins;
 }
 
- h1 {
+h1 {
     font-size: 30px;
     text-align: center;
     font-family: poppins;
@@ -336,7 +348,7 @@ li{
 }
 
 .navbarElementItem a {
-        padding: 3rem 5rem;
+    padding: 3rem 5rem;
 }
 
 
@@ -462,7 +474,21 @@ body {
     border-radius: 10px;
 }
 
+#connectBtn2 {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #FD5D5D;
+    padding: 1.5%;
+    border: 0;
+    border-radius: 10px;
+}
+
+
 #connectBtn:hover {
+    font-weight: bold;
+}
+
+#connectBtn2:hover {
     font-weight: bold;
 }
 
@@ -548,6 +574,7 @@ footer{
 }
 
 footer h1 {
+    all: unset;
     font-size: 30px;
 }
 .container-footer-all{
