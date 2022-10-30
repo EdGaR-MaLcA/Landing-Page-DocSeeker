@@ -1,3 +1,4 @@
+
 :root{
     --primary-color: #0093AB;
     --secundary-color: #FD5D5D;
@@ -498,8 +499,11 @@ body {
     flex-flow: column;
     justify-content: center;
     text-align: center;
+    gap: 1rem;
 }
-
+button:hover{
+    cursor: pointer;
+}
 .imgContainer {
     width: 85%;
     height: 70%;
@@ -513,7 +517,7 @@ body {
 }
 
 /* About Us Section */
-#aboutUs .mainContainer {
+#about .mainContainer {
     display: flex;
     justify-content: space-evenly;
 }
@@ -527,7 +531,10 @@ body {
 .mainContainer iframe {
     width: 100%;
 }
-
+#information{
+    padding: 2rem;
+    gap: 1rem;
+}
 @media only screen and (max-width: 600px) {
 
     /* Health Professionals Section */
@@ -551,13 +558,19 @@ body {
     }
 
     /* About Us Section */
-    #aboutUs .mainContainer {
+    #about .mainContainer {
         flex-flow: column;
         align-items: center;
     }
 
     .videoSection {
         width: 80%;
+    }
+    button{
+        font-size: 120%;
+    }
+    .mediaContainer{
+        gap: 2rem;
     }
 }
 
